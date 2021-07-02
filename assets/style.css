@@ -1,0 +1,468 @@
+body {
+    background: #0E0E0E !important;
+}
+
+
+/* hero section styling */
+
+.bg_hero_section {
+    background: url("images/hero_sec_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+    height: 100vh;
+}
+
+.happy_hourtxt {
+    text-align: center;
+    color: #FDFDFD;
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#fp-nav ul li:before {
+    content: '|';
+    background: #d4d9df9e;
+    display: inline-block;
+    position: relative;
+    left: 12px;
+    width: 2px;
+    height: 55%;
+    top: 58px;
+}
+
+button.hero_sec_btn {
+    padding: 8px 16px;
+    letter-spacing: 1.5px;
+    background-color: #FABE28;
+    color: #0E0E0E;
+    border: 0;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+button.hero_sec_btn:hover {
+    background: #0E0E0E;
+    color: #FABE28;
+    font-weight: bold;
+}
+
+
+/* -------------------------------------------------- */
+
+
+/* Menu Section Styling */
+
+.menu_section {
+    height: 100vh;
+    margin-top: 8%;
+    overflow-x: hidden;
+}
+
+.heading_menu {
+    font-family: "Playfair Display";
+    color: #FDFDFD;
+    letter-spacing: 6px;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.menu_btn,
+.event_menu_btn {
+    background: transparent;
+    color: #FABE28;
+    border: 1px solid #FABE28;
+    font-family: "Montserrat";
+    letter-spacing: 1.5px;
+    font-size: 12px;
+    padding: 5px 12px;
+}
+
+.menu_box {
+    max-width: 14%;
+}
+
+.slide_row {
+    width: 42.3cm;
+    position: relative;
+    left: -1.13cm;
+    overflow: hidden !important;
+    transition: ease-in 0.6s;
+}
+
+.menu_btn:hover {
+    background: #FABE28;
+    color: #0E0E0E;
+}
+
+.menu_btn-active {
+    background: #FABE28;
+    color: #0E0E0E;
+}
+
+.menu_p_col {
+    position: relative;
+    left: 10%;
+}
+
+.txt_menu {
+    color: #FDFDFD;
+    text-align: left;
+    font-family: "Montserrat";
+    letter-spacing: 3px;
+    width: 55%;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.menu_btn_second {
+    background: #FABE28;
+    color: #0E0E0E;
+    font-family: "Montserrat";
+    letter-spacing: 1.5px;
+    font-size: 12px;
+    padding: 5px 12px;
+    border: 0;
+}
+
+.menu_btn_second:hover {
+    background: transparent;
+    color: #FABE28;
+    border: 1px solid #FABE28;
+}
+
+.menu_card {
+    background: transparent !important;
+    border: 1px solid #FABE28 !important;
+    padding: 10px;
+    border-radius: 0px !important;
+    color: #FABE28;
+}
+
+.menu_card:hover {
+    background: #FABE28 !important;
+    color: #FDFDFD !important;
+}
+
+.menu_card,
+.card-title,
+.card-text {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 32px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.arrow {
+    position: relative;
+    top: 10.5rem;
+}
+
+
+/* --------------------------------------------------- */
+
+
+/* svg images  */
+
+svg {
+    position: absolute;
+}
+
+.first {
+    left: -60px;
+    bottom: 2px;
+    z-index: 1;
+}
+
+.second {
+    left: -32px;
+    bottom: 65px;
+    z-index: 2;
+}
+
+
+/* --------------------------------------------------- */
+
+
+/* card_section styling  */
+
+.card_section {
+    height: 100vh;
+    margin-top: 8%;
+}
+
+.events_card {
+    background: #FABE28;
+    color: #0E0E0E;
+    letter-spacing: 2px;
+    position: relative;
+    padding-top: 75px !important;
+    bottom: 225px !important;
+    clip-path: polygon(100% 0%, 100% 100%, 100% 100%, 0 100%, 0 30%);
+}
+
+.events_card .card-text {
+    color: #0E0E0E !important;
+    letter-spacing: 1.5px;
+}
+
+.setHeight {
+    max-height: 32em;
+}
+
+.event_menu_btn-active {
+    background: #FABE28;
+    color: #0E0E0E;
+}
+
+.event_menu_btn:hover {
+    background: #FABE28;
+    color: #0E0E0E;
+}
+
+.btn_allevent {
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    color: #FABE28;
+    border: 1px solid #FABE28;
+    padding: 5px;
+}
+
+.btn_allevent:hover {
+    color: #0E0E0E;
+    background: #FABE28;
+    text-decoration: none;
+    animation: ease-in;
+}
+
+#video1:hover {
+    cursor: pointer;
+}
+
+
+/* ---------------------- */
+
+
+/*  Vip section styling  */
+
+.vip_section {
+    background: url("images/vip_section_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+    height: 80vh;
+}
+
+.vip_section_heading {
+    font-family: "Playfair Display";
+    font-size: 48px;
+    letter-spacing: 8px;
+    color: #FDFDFD;
+    position: relative;
+    /* animation: linear infinite alternate;
+    animation-duration: 4s;
+    animation-name: run; */
+}
+
+
+/* @keyframes run {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: calc(100% - 100px);
+    }
+    100% {
+        left: 0;
+    }
+} */
+
+.vip_card {
+    bottom: 7.5em !important;
+}
+
+.btn-vipsection {
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-size: 12px !important;
+    letter-spacing: 2px;
+    color: #0E0E0E;
+    border: 1px solid !important;
+    border-radius: 0px !important;
+}
+
+.btn-vipsection:hover {
+    background-color: #0E0E0E;
+    color: #FABE28 !important;
+    animation: ease-in;
+}
+
+
+/* --------------------- */
+
+
+/* footer section styling  */
+
+.footer_section {
+    height: 85vh;
+    margin-top: 8%;
+    /* background-image: url("images/leaf_footer_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+.emailtext_bar {
+    flex: unset !important;
+    width: 60% !important;
+    background: transparent !important;
+    color: #FABE28 !important;
+    border: 1px solid #FABE28 !important;
+    border-radius: unset !important;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #FABE28 !important;
+    letter-spacing: 2.5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #FABE28 !important;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #FABE28 !important;
+}
+
+.btn_subscribe {
+    font-family: "Montserrat";
+    background: #FABE28 !important;
+    color: #0E0E0E !important;
+    font-size: 14px !important;
+    letter-spacing: 2px;
+    border-radius: unset !important;
+    text-transform: uppercase;
+}
+
+.latestupdate_text {
+    font-family: "Playfair Display";
+    font-size: 22px;
+    letter-spacing: 0.19em;
+    color: #FDFDFD;
+    font-weight: normal;
+}
+
+.latestupdate_text:hover {
+    color: #FDFDFD;
+    text-decoration: none;
+}
+
+.footer_contact_txt {
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #FABE28;
+}
+
+.about_txt {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-size: 20px;
+    line-height: 48px;
+    letter-spacing: 0.5em;
+    color: #FDFDFD;
+}
+
+#footernav a.nav-link {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 34px;
+    letter-spacing: 0.15em;
+    color: #FABE28;
+}
+
+.footer_timing_txt {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FDFDFD;
+}
+
+
+/* ---------------------- */
+
+
+/* selection color changed */
+
+::-moz-selection {
+    /* Code for Firefox */
+    background: transparent;
+    color: #FABE28;
+}
+
+::selection {
+    background: transparent;
+    color: #FABE28;
+}
+
+
+/* -------------------- */
+
+.fp-tableCell {
+    height: unset !important;
+}
+
+svg path.leaf {
+    animation: skew 3s infinite;
+    transform: skew;
+    animation-direction: alternate;
+}
+
+@keyframes skew {
+    0% {
+        transform: skewX(4deg) translate(-3px);
+    }
+    100% {
+        transform: skewX(-4deg) translate(3px);
+    }
+}
+
+.leaf_rotate_left {
+    transform: rotate(347deg);
+    z-index: -1;
+}
+
+.leaf_rotate_right {
+    transform: rotateY(180deg) rotate(350deg);
+    margin-left: 465px;
+    z-index: -1;
+}
